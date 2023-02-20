@@ -86,11 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-<<<<<<< HEAD
     const response = await fetch('https://logicai.onrender.com', {
-=======
-    const response = await fetch('http://localhost:5000/', {
->>>>>>> e3ec63902147504de49fc64c5ade1296b706fa37
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
